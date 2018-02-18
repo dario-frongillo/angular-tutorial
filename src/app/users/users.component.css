@@ -1,0 +1,16 @@
+table {
+  border:1px solid #c0c0c0;
+  padding: 2px;
+}
+th{
+  background: black;
+  color: darkgreen;
+}
+
+th, td{
+  padding: 5px;
+}
+
+td {
+  background: silver;
+}
