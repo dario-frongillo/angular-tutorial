@@ -1,2 +1,18 @@
+<div class="container-fluid">
+  <fa>
+
+  </fa>
 <h1> User management System</h1>
-<app-users></app-users>
+<a href="#" (click)="newUser()"> New User</a>
+  <div class="row">
+      <div class="col-md-8">
+        <app-users (updateUser)="updateUser($event)"></app-users>
+      </div>
+
+    <div class="col-md-4" *ngIf="showForm">
+      <app-user-details [user]="userSelected"></app-user-details>
+    </div>
+
+  </div>
+
+</div>

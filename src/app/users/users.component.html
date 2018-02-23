@@ -1,4 +1,4 @@
-<table>
+<table class="table table-striped table sm table-dark">
   <caption>{{title}}</caption>
   <tr>
     <th>Nome</th>
@@ -10,6 +10,8 @@
     <th>Eta</th>
     <th>Actions</th>
   </tr>
-  <tr app-user *ngFor="let user of users" [user] = "user" (onDeleteUser)="onDeleteUser($event)">
+  <tr app-user *ngFor="let user of users" [user] = "user"
+      (onDeleteUser)="onDeleteUser($event)"
+      (onSelectUser)="onSelectUser($event)">
   </tr>
 </table>

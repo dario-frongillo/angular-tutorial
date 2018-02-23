@@ -1,3 +1,4 @@
+/*
 th, td{
   padding: 5px;
 }
@@ -11,3 +12,11 @@ button.delete {
   color: red;
   width: 80px;
 }
+
+
+button.update {
+  background: white;
+  color: blue;
+  width: 80px;
+}
+*/
