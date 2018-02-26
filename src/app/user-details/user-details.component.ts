@@ -28,6 +28,7 @@ export class UserDetailsComponent implements OnInit {
   }
 
   saveUser() {
+    debugger;
     if (this.user.id > 0) {
       this.userService.updateUser(this.user);
     } else {
