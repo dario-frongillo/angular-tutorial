@@ -1,3 +1,7 @@
 (onNewUser)= newUser()
 
-mi metto in attesa di un evento
+mi metto in attesa di un evento.. istanzio un figlio e lui puo sparare onNewUser per comunicarmi
+
+
+dall alto puoi comunicare al basso passando variabili
+ @Input() user:User;

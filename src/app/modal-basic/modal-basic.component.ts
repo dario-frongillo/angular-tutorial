@@ -20,6 +20,12 @@ export class ModalBasicComponent implements OnInit {
     });
   }
 
+
+  ngOnInit() {
+    console.log('ciao');
+  }
+
+
   private getDismissReason(reason: any): string {
     if (reason === ModalDismissReasons.ESC) {
       return 'by pressing ESC';
